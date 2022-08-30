@@ -5,6 +5,7 @@ import { changeState } from '../../redux/rockets/rockets';
 import Button from '../Button/Button';
 import Card from '../UI/Card';
 import Badge from '../Badge/Badge';
+import './Rocket.css';
 
 const Rocket = (props) => {
   const {
@@ -16,12 +17,14 @@ const Rocket = (props) => {
   };
 
   return (
-    <Card>
-      <img src={imgUrl} alt="rocket-img" />
-      <div>
-        <h1>{name}</h1>
-        <div>
-          <Badge secondClasses={reservaton ? '' : 'hidden'} text="Reserved" />
+    <Card className="rocket-container">
+      <div className="rocket-image">
+        <img src={imgUrl} alt="rocket-img" />
+      </div>
+      <div className="rocket-info">
+        <h2 className="rocket-name">{name}</h2>
+        <div className="rocket-reservation">
+          <Badge secondClasses={reservaton ? 'ar' : 'hidden'} text="Reserved" />
           {description}
         </div>
         <Button

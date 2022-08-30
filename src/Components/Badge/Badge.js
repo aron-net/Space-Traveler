@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 
 export default function Badge({ ...props }) {
   return (
-    <div
+    <span
       data-testid="badge"
       className={`${props.secondClasses}`}
     >
       {props.text}
-    </div>
+    </span>
   );
 }
 
