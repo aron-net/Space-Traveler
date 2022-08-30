@@ -1,16 +1,14 @@
 .nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-    margin:0 5px;
-    margin: 0 31px;
-    border-bottom: 1px solid #808080b5;
-    margin-bottom: 12px;
-       
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 0 5px;
+  margin: 0 31px;
+  border-bottom: 1px solid #808080b5;
+  margin-bottom: 12px;
 }
-
 
 .log {
   width: 8%;
@@ -23,21 +21,21 @@
 }
 
 .Navlinks {
-    display: flex;
-    justify-content: space-evenly;
-    gap: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
 }
 
 .Navlinks a {
-text-decoration: none;
-font-size: 1.2rem;
-color: rgb(56, 132, 219);
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: rgb(56, 132, 219);
 }
 
 .Navlinks a:hover {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .main-title {
-font-size: 2rem;
+  font-size: 2rem;
 }
