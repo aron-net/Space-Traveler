@@ -1,4 +1,4 @@
-import MissionList from '../MissionList/MissionList';
+import MissionList from '../Missions/MissionList';
 
 const MissionPage = () => (
   <div className="allMissions">
