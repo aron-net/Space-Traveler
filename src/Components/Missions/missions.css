@@ -1,0 +1,36 @@
+.missions-container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  margin:3rem;
+}
+
+.mission-titles {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr;
+}
+
+.mission-titles h2{
+    border-right:1px solid white ;
+    height:100%;
+    margin:0;
+    padding: 20px;
+}
+
+.missionItems {
+  display: flex;
+  flex-direction: column;
+}
+
+.missionItems .card {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr;
+}
+
+.missionItems .card div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  text-align: center;
+}

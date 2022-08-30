@@ -16,19 +16,20 @@ const Mission = (props) => {
 
   return (
     <Card>
-      <div>
-        <h2>Mission</h2>
-        <h2>Description</h2>
-        <h2>Status</h2>
-        <span> </span>
-      </div>
-      <div>
+      <div className="missionName">
         <h2>{name}</h2>
+      </div>
+      <div className="missionInfor">
         <p>{description}</p>
+      </div>
+      <div className="missionStatus">
         <Badge
           text={`${reservation ? 'Active member' : 'Not a Member'}`}
           secondClass={`${reservation ? '' : 'hidden'}`}
         />
+      </div>
+
+      <div className="missionBtn">
         <Button
           id={id}
           secondClasses={`${reservation ? '' : ''} `}
@@ -37,6 +38,7 @@ const Mission = (props) => {
           type="button"
         />
       </div>
+
     </Card>
   );
 };
