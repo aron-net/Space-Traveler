@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import NavBar from './Components/NavBar/NavBar';
 import RocketPage from './Components/page/RocketPage';
 import MissionPage from './Components/page/MissionsPage';
+import './App.css';
 
 function App() {
   return (

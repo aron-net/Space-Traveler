@@ -1,6 +1,8 @@
 button {
-background-color: blue;
-color: white;
-width: 7rem;
-height: 2rem;
+    background-color: hsl(206deg 83% 51%);
+    color: white;
+    width: 10rem;
+    height: 2.2rem;
+    border: none;
+    border-radius: 6px;
 }

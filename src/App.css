@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-image: url("../src/Image/tryyyy.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  color: whitesmoke;
 }
 
 .App-logo {

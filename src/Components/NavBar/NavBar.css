@@ -1,12 +1,14 @@
 .nav {
     display: flex;
     flex-direction: row;
-    /* border: 1px solid red; */
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    border-bottom: 1px solid gray;
+    margin:0 5px;
+    margin: 0 31px;
+    border-bottom: 1px solid #808080b5;
     margin-bottom: 12px;
+       
 }
 
 

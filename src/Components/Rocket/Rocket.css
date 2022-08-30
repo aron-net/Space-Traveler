@@ -2,8 +2,7 @@
 display: grid;
 grid-template-columns: 1fr 3fr;
 gap: 1.5rem;
-padding-bottom: 1.5rem;
-padding: 1rem;
+padding: 2em;
 }
 
 .rocket-image img {
@@ -21,10 +20,11 @@ background-color: blue;
 color: white;
 }
 
-.rocket-reservation {
-display: flex;
-}
-
 .hidden {
     padding-right: 9px;
+}
+
+.rocket-reservation {
+    margin-bottom: 1.5rem;
+    font-size: 0.8em;
 }
