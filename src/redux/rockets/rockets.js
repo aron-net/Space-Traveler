@@ -1,4 +1,4 @@
-import fetchRockets from '../API/Api';
+import fetchRockets from '../API/RocketApi';
 
 const FETCH_SUCCESS = 'SPACE-TRAVELERS/rockets/FETCH_SUCCESSFUL';
 const FETCH_FAILED = 'SPACE-TRAVELERS/rockets/FETCH_FAILED';
