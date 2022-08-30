@@ -1,6 +1,6 @@
 import MissionList from '../MissionList/MissionList';
 
-export const Missions = () => {
+export const MissionPage = () => {
 
     return ( 
         <div className="allMissions">

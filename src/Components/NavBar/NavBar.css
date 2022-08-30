@@ -1,4 +1,15 @@
 .nav {
     display: flex;
+    flex-direction: row;
     gap: 50px;
+}
+
+.log {
+    width: 8%;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
