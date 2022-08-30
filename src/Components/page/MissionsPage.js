@@ -1,13 +1,9 @@
 import MissionList from '../MissionList/MissionList';
 
-export const MissionPage = () => {
+const MissionPage = () => (
+  <div className="allMissions">
+    <MissionList />
+  </div>
+);
 
-    return ( 
-        <div className="allMissions">
-          <MissionList />
-         </div>
-         )
-        
-
-}
-
+export default MissionPage;

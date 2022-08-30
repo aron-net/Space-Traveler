@@ -1,8 +1,8 @@
-import {Routes, Route} from 'react-router-dom'; 
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import NavBar from './Components/NavBar/NavBar';
-import {RocketPage} from './Components/page/RocketPage';
-import {MissionPage} from './Components/page/MissionsPage';
+import RocketPage from './Components/page/RocketPage';
+import MissionPage from './Components/page/MissionsPage';
 
 function App() {
   return (

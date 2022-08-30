@@ -1,9 +1,9 @@
 import RocketList from '../Rocket/RocketList';
 
-export const RocketPage = () => (
-
+const RocketPage = () => (
   <div>
     <RocketList />
   </div>
+);
 
-)
+export default RocketPage;
