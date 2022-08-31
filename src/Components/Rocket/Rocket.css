@@ -1,18 +1,30 @@
+.rocketList{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding:6rem 2rem;
+  margin:0 3rem;
+  width: 80%;
+}
+
 .rocket-container {
   display: grid;
   grid-template-columns: 1fr 3fr;
   gap: 1.5rem;
   padding: 2em;
+  background-color:#0000009c ;
 }
 
 .rocket-image img {
   width: 100%;
+  height: 110%;
 }
 
 .rocket-info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  text-align: left;
 }
 
 .rocket-btn {

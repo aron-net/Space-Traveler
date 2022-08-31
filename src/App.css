@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
 .App {
   text-align: center;
-  background-image: url("../src/Image/tryyyy.jpeg");
+  background-image: url("../src/Image/pexels-photo-355935.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   color: whitesmoke;

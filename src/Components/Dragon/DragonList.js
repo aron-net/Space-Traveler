@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchAllDragon } from '../../redux/dragons/dragon';
 import Dragon from './Dragon';
+import './Dragon.css';
 
 const DragonList = () => {
   const dispatch = useDispatch();

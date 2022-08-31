@@ -1,0 +1,33 @@
+.dragonImg{
+    margin-bottom: 2rem;
+}
+
+.dragonImg img {
+    width: 100%;
+    height: 110%;
+}
+
+.dragonsContainer {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2rem;
+  padding: 1.5em;
+  background-color:#0000009c;
+  margin:3rem 5rem;
+}
+
+.dragonDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.dragonDescription button{
+  background-color: blue;
+  color: white;
+}
+
+.hidden {
+  padding-right: 9px;
+}
