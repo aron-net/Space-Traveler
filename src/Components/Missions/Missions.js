@@ -30,7 +30,7 @@ const Mission = (props) => {
 
       <div className="missionBtn">
         <button
-          id=""
+          id={id}
           secondClasses={`${reservation ? '' : ''} `}
           text={reservation ? 'Leave mission' : 'Join Mission'}
           handleClick={onButtonPressedMission}
