@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders when there is item 1`] = `
+<div
+  className="card dragonsContainer"
+>
+  <div
+    className="dragonImg"
+  >
+    <img
+      alt="dragon-img"
+    />
+  </div>
+  <div
+    className="dragonDescription"
+  >
+    <h1
+      className="dragonName"
+    />
+    <div
+      className="dragonType"
+    />
+    <button
+      className=" "
+      onClick={[Function]}
+      type="button"
+    >
+      Reserve Dragon
+    </button>
+  </div>
+</div>
+`;
