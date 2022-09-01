@@ -7,19 +7,19 @@ const Dragon = (props) => {
     id, reservation, name, type, img,
   } = props;
   return (
-    <Card className='dragonsContainer'>
+    <Card className="dragonsContainer">
       <div className="dragonImg">
         <img src={img} alt="dragon-img" />
       </div>
-      <div className='dragonDescription'>
-        <h1 className='dragonName'>{name}</h1>
-        <div className='dragonType'>{type}</div>
+      <div className="dragonDescription">
+        <h1 className="dragonName">{name}</h1>
+        <div className="dragonType">{type}</div>
         <Button
           id={id}
           secondClasses={`${reservation ? '' : ''}`}
           text={reservation ? 'Cancel Reservation' : 'Reserve Dragon'}
           type="button"
-         />
+        />
       </div>
     </Card>
   );

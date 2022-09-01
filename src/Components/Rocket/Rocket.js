@@ -12,6 +12,7 @@ const Rocket = (props) => {
     id, reservaton, name, description, imgUrl,
   } = props;
   const dispatch = useDispatch();
+
   const onButtonPressed = (event) => {
     dispatch(changeState(event.target.id));
   };

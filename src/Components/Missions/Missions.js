@@ -2,7 +2,6 @@ import React, { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 import { changeStateMission } from '../../redux/missions/missions';
 import Badge from '../Badge/Badge';
-import Button from '../Button/Button';
 import Card from '../UI/Card';
 
 const Mission = (props) => {
@@ -24,18 +23,21 @@ const Mission = (props) => {
       </div>
       <div className="missionStatus">
         <Badge
-          text={`${reservation ? "Active member" : "Not a Member"}`}
-          secondClass={`${reservation ? "" : "hidden"}`}
+          text={`${reservation ? 'Active member' : 'Not a Member'}`}
+          secondClass={`${reservation ? '' : 'hidden'}`}
         />
       </div>
 
       <div className="missionBtn">
         <button
-          secondClasses={`${reservation ? "" : ""} `}
-          text={reservation ? "Leave mission" : "Join Mission"}
+          id=""
+          secondClasses={`${reservation ? '' : ''} `}
+          text={reservation ? 'Leave mission' : 'Join Mission'}
           handleClick={onButtonPressedMission}
           type="button"
-        />
+        >
+          {reservation ? 'Leave mission' : 'Join Mission'}
+        </button>
       </div>
     </Card>
   );
