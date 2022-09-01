@@ -7,17 +7,13 @@ import './missions.css';
 const MissionList = () => {
   const dispatch = useDispatch();
   const missions = useSelector((state) => state.missions);
-
   useEffect(() => {
     if (!missions.length) dispatch(fetchAllMission());
   });
-
   const listMission = missions.map((mission) => (
     <Mission
       key={mission.mission_id}
-      id={mission.mission_id}
-      name={mission.mission_name}
-      description={mission.description}
+      mission={mission}
     />
   ));
   return (

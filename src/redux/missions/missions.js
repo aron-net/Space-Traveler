@@ -14,7 +14,6 @@ export const fetchAllMission = () => (dispatch) => {
             mission_id: mission.mission_id,
             mission_name: mission.mission_name,
             description: mission.description,
-            reservation: false,
           });
         });
         dispatch(
@@ -41,13 +40,9 @@ export const missionReducer = (state = [], action) => {
       return action.data;
 
     case RESERVATION:
-      return state.map((mission) => ({
-        id: mission.mission_id,
-        name: mission.mission_name,
-        description: mission.description,
-        reservation: mission.id === action.id ? !mission.reservation : mission.reservation,
-      }));
-
+      return state.map((item) => (
+        item.mission_id === action.data ? { ...item, reserved: !item.reserved } : item
+      ));
     default:
       return state;
   }
@@ -55,5 +50,5 @@ export const missionReducer = (state = [], action) => {
 
 export const changeStateMission = (id) => ({
   type: RESERVATION,
-  id,
+  data: id,
 });
