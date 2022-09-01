@@ -12,9 +12,9 @@ const MissionList = () => {
   }, []);
   const listMission = missions.map((mission) => (
     <Mission
-      key={mission.id}
-      id={mission.id}
-      name={mission.name}
+      key={mission.mission_id}
+      id={mission.mission_id}
+      name={mission.mission_name}
       description={mission.description}
     />
   ));

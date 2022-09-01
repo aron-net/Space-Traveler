@@ -35,22 +35,6 @@ export const fetchAllMission = () => (dispatch) => {
   });
 };
 
-// export const missionReducer = (state = [], action) => {
-//   switch (action.type) {
-//     case SUCCESS:
-//       return action.data;
-//     case RESERVATION:
-//       return state.map((mission) => ({
-//         id: mission.id,
-//         name: mission.name,
-//         description: mission.description,
-//         reservation: mission.id === action.id ? !mission.reservation : mission.reservation,
-//       }));
-//     default:
-//       return state;
-//   }
-// };
-
 export const missionReducer = (state = [], action) => {
   switch (action.type) {
     case SUCCESS:
@@ -58,7 +42,7 @@ export const missionReducer = (state = [], action) => {
 
     case RESERVATION:
       return state.map((mission) => ({
-        id: mission.mission_name,
+        id: mission.mission_id,
         name: mission.mission_name,
         description: mission.description,
         reservation: mission.id === action.id ? !mission.reservation : mission.reservation,

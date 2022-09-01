@@ -24,21 +24,19 @@ const Mission = (props) => {
       </div>
       <div className="missionStatus">
         <Badge
-          text={`${reservation ? 'Active member' : 'Not a Member'}`}
-          secondClass={`${reservation ? '' : 'hidden'}`}
+          text={`${reservation ? "Active member" : "Not a Member"}`}
+          secondClass={`${reservation ? "" : "hidden"}`}
         />
       </div>
 
       <div className="missionBtn">
-        <Button
-          id={id}
-          secondClasses={`${reservation ? '' : ''} `}
-          text={reservation ? 'Leave mission' : 'Join Mission'}
+        <button
+          secondClasses={`${reservation ? "" : ""} `}
+          text={reservation ? "Leave mission" : "Join Mission"}
           handleClick={onButtonPressedMission}
           type="button"
         />
       </div>
-
     </Card>
   );
 };
