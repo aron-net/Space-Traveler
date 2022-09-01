@@ -1,10 +1,10 @@
-.dragonImg{
-    margin-bottom: 2rem;
+.dragonImg {
+  margin-bottom: 2rem;
 }
 
 .dragonImg img {
-    width: 100%;
-    height: 110%;
+  width: 100%;
+  height: 110%;
 }
 
 .dragonsContainer {
@@ -12,8 +12,8 @@
   grid-template-columns: 1fr 3fr;
   gap: 2rem;
   padding: 1.5em;
-  background-color:#0000009c;
-  margin:3rem 5rem;
+  background-color: #0000009c;
+  margin: 3rem 5rem;
 }
 
 .dragonDescription {
@@ -23,7 +23,7 @@
   text-align: left;
 }
 
-.dragonDescription button{
+.dragonDescription button {
   background-color: blue;
   color: white;
 }

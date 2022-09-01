@@ -7,9 +7,11 @@ import './missions.css';
 const MissionList = () => {
   const dispatch = useDispatch();
   const missions = useSelector((state) => state.missions);
+
   useEffect(() => {
-    if (missions.length === 0) dispatch(fetchAllMission());
-  }, []);
+    if (!missions.length) dispatch(fetchAllMission());
+  });
+
   const listMission = missions.map((mission) => (
     <Mission
       key={mission.mission_id}

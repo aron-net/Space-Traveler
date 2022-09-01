@@ -1,9 +1,9 @@
-.rocketList{
+.rocketList {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  padding:6rem 2rem;
-  margin:0 3rem;
+  padding: 6rem 2rem;
+  margin: 0 3rem;
   width: 80%;
 }
 
@@ -12,7 +12,7 @@
   grid-template-columns: 1fr 3fr;
   gap: 1.5rem;
   padding: 2em;
-  background-color:#0000009c ;
+  background-color: #0000009c;
 }
 
 .rocket-image img {
@@ -32,11 +32,19 @@
   color: white;
 }
 
+.ar {
+  background-color: #9a50df;
+  padding: 3px 10px;
+  margin-right: 7px;
+  border-radius: 3px;
+}
+
 .hidden {
-  padding-right: 9px;
+  display: none;
 }
 
 .rocket-reservation {
   margin-bottom: 1.5rem;
   font-size: 0.8em;
+  line-height: 1.3rem;
 }

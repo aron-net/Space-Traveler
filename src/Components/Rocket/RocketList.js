@@ -8,8 +8,8 @@ const RocketList = () => {
   const rockets = useSelector((state) => state.rockets);
 
   useEffect(() => {
-    if (rockets.length === 0) dispatch(fetchAllRockets());
-  }, []);
+    if (!rockets.length) dispatch(fetchAllRockets());
+  });
 
   const list = rockets.map((rocket) => (
     <Rocket

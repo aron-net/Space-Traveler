@@ -7,9 +7,11 @@ import './Dragon.css';
 const DragonList = () => {
   const dispatch = useDispatch();
   const dragons = useSelector((state) => state.dragons);
+
   useEffect(() => {
-    if (dragons.length === 0) dispatch(fetchAllDragon());
-  }, []);
+    if (!dragons.length) dispatch(fetchAllDragon());
+  });
+
   const list = dragons.map((item) => (
     <Dragon
       key={item.id}

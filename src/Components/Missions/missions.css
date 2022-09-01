@@ -1,4 +1,4 @@
-.allMissions{
+.allMissions {
   padding: 2rem 0;
 }
 
@@ -7,8 +7,8 @@
   color: #c9c9cd;
   flex-direction: column;
   border: 0.5px solid #c1c3c5ae;
-  margin:3rem;
-  background-color:#000000b2 ;
+  margin: 3rem;
+  background-color: #000000b2;
 }
 
 .mission-titles {
@@ -21,13 +21,13 @@
   padding: 0.8rem;
 }
 
-.mission-titles h2{
-    border: 0.5px solid #c1c3c5ae;
-    border-bottom: none;
-    height:100%;
-    margin:0;
-    padding: 15px;
-  }
+.mission-titles h2 {
+  border: 0.5px solid #c1c3c5ae;
+  border-bottom: none;
+  height: 100%;
+  margin: 0;
+  padding: 15px;
+}
 
 .missionStatus span {
   background-color: #c1c3c5ae;
