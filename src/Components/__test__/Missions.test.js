@@ -1,12 +1,15 @@
 import { Provider } from 'react-redux';
-import React from 'react';
-import renderer from 'react-test-renderer';
-import Mission from '../Missions/Missions';
-import store from '../../redux/configureStore';
+import render from 'react-test-renderer';
+import Rocket from '../Components/Rocket/Rocket';
+import store from '../redux/configureStore';
 
-it('renders when there is item', () => {
-  const tree = renderer.create(<Provider store={store}>
-<Mission />
-</Provider>);
-  expect(tree).toMatchSnapshot();
+describe('Rockets test', () => {
+  test('snapshot', () => {
+    const tree = render.create(
+      <Provider store={store}>
+        <Rocket />
+      </Provider>,
+    );
+    expect(tree).toMatchSnapshot();
+  });
 });

@@ -5,7 +5,7 @@ import Card from '../UI/Card';
 
 const Mission = (props) => {
   const {
-    mission
+    mission,
   } = props;
   console.log(props);
   const dispatch = useDispatch();
