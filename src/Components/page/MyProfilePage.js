@@ -1,4 +1,4 @@
-import MyProfile from '../Myprofile/Myprofile';
+import MyProfile from '../Myprofile/MyProfile';
 
 const MyProfilePage = () => (
   <div>
