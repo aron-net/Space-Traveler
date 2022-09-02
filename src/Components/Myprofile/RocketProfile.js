@@ -1,4 +1,5 @@
 import { useSelector } from 'react-redux';
+import './Myprofile.css';
 
 function RocketProfile() {
   const rockets = useSelector((state) => state.rockets);
@@ -18,7 +19,7 @@ function RocketProfile() {
             rockets.map((rocket) => {
               if (!rocket.reservation) {
                 return (
-                  <li style={{ border: 'none', color: 'green' }} key={rocket.id}>
+                  <li key={rocket.id}>
                     {rocket.name}
                   </li>
                 );
@@ -26,7 +27,7 @@ function RocketProfile() {
               return null;
             })
           ) : (
-            <li style={{ border: 'none' }}>
+            <li>
               Reserved Rockets Currently(0)
             </li>
           )}

@@ -1,4 +1,5 @@
 import { useSelector } from 'react-redux';
+import './Myprofile.css';
 
 function MissionProfile() {
   const missionProfile = useSelector((state) => state.missions);
@@ -22,9 +23,7 @@ function MissionProfile() {
             </li>
           ))
         ) : (
-          <li
-            style={{ border: 'none', color: 'green' }}
-          >
+          <li>
             Reserved Missions Currently(0)
           </li>
         )}

@@ -15,11 +15,7 @@ const DragonList = () => {
   const list = dragons.map((item) => (
     <Dragon
       key={item.id}
-      id={item.id}
-      name={item.name}
-      type={item.type}
-      img={item.img}
-      reservation={item.reservation}
+      item={item}
     />
   ));
   return <>{list}</>;

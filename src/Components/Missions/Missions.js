@@ -7,7 +7,7 @@ const Mission = (props) => {
   const {
     mission,
   } = props;
-  console.log(props);
+
   const dispatch = useDispatch();
   return (
     <Card>

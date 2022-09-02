@@ -1,4 +1,5 @@
 import { useSelector } from 'react-redux';
+import './Myprofile.css';
 
 function DragonProfile() {
   const dragons = useSelector((state) => state.dragons);
@@ -21,7 +22,7 @@ function DragonProfile() {
             return null;
           })
         ) : (
-          <li style={{ border: 'none', color: 'green' }}>Reserved Dragons Currently(0)</li>
+          <li>Reserved Dragons Currently(0)</li>
         )}
       </ul>
     </section>
