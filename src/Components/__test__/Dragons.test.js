@@ -1,8 +1,21 @@
-import React from 'react';
-import renderer from 'react-test-renderer';
-import Dragon from '../Dragon/Dragon';
-
-it('renders when there is item', () => {
-  const tree = renderer.create(<Dragon />).toJSON();
-  expect(tree).toMatchSnapshot();
+import React from "react";
+import { Provider } from "react-redux";
+import { BrowserRouter as Router } from "react-router-dom";
+import { render } from "@testing-library/react";
+import DragonList from "../Dragon/DragonList";
+import store from "../../redux/configureStore";
+describe("dragon test", () => {
+  test("snapshot for dragon", () => {
+    const tree = render(
+      <React.StrictMode>
+        <Provider store={store}>
+          <Router>
+            <DragonList />
+          </Router>
+        </Provider>
+        ,
+      </React.StrictMode>
+    );
+    expect(tree).toMatchSnapshot();
+  });
 });

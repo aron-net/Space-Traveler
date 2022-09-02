@@ -1,11 +1,11 @@
-import { Provider } from 'react-redux';
-import { BrowserRouter as Router } from 'react-router-dom';
-import render from 'react-test-renderer';
-import store from '../redux/configureStore';
-import Rocket from '../Rocket/Rocket';
-
-describe('Rockets test', () => {
-  test('snapshot for rockets', () => {
+import React from "react";
+import { Provider } from "react-redux";
+import { BrowserRouter as Router } from "react-router-dom";
+import { render } from "@testing-library/react";
+import Rocket from "../Rocket/Rocket";
+import store from "../../redux/configureStore";
+describe("Rockets test", () => {
+  test("snapshot for rockets", () => {
     const tree = render(
       <React.StrictMode>
         <Provider store={store}>
@@ -14,8 +14,7 @@ describe('Rockets test', () => {
           </Router>
         </Provider>
         ,
-      </React.StrictMode>,
-
+      </React.StrictMode>
     );
     expect(tree).toMatchSnapshot();
   });

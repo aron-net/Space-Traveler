@@ -1,14 +1,82 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`dragon test snapshot for dragon 1`] = `
+exports[`Rockets test snapshot for rockets 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <div
+        class="card rocket-container"
+      >
+        <div
+          class="rocket-image"
+        >
+          <img
+            alt="rocket-img"
+          />
+        </div>
+        <div
+          class="rocket-info"
+        >
+          <h2
+            class="rocket-name"
+          />
+          <div
+            class="rocket-reservation"
+          >
+            <span
+              class="hidden"
+              data-testid="badge"
+            >
+              Reserved
+            </span>
+          </div>
+          <button
+            class="  "
+            type="button"
+          >
+            Reserve Rocket
+          </button>
+        </div>
+      </div>
       ,
     </div>
   </body>,
   "container": <div>
+    <div
+      class="card rocket-container"
+    >
+      <div
+        class="rocket-image"
+      >
+        <img
+          alt="rocket-img"
+        />
+      </div>
+      <div
+        class="rocket-info"
+      >
+        <h2
+          class="rocket-name"
+        />
+        <div
+          class="rocket-reservation"
+        >
+          <span
+            class="hidden"
+            data-testid="badge"
+          >
+            Reserved
+          </span>
+        </div>
+        <button
+          class="  "
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
     ,
   </div>,
   "debug": [Function],
@@ -63,35 +131,4 @@ Object {
   "rerender": [Function],
   "unmount": [Function],
 }
-`;
-
-exports[`renders when there is item 1`] = `
-<div
-  className="card dragonsContainer"
->
-  <div
-    className="dragonImg"
-  >
-    <img
-      alt="dragon-img"
-    />
-  </div>
-  <div
-    className="dragonDescription"
-  >
-    <h1
-      className="dragonName"
-    />
-    <div
-      className="dragonType"
-    />
-    <button
-      className=" "
-      onClick={[Function]}
-      type="button"
-    >
-      Reserve Dragon
-    </button>
-  </div>
-</div>
 `;
