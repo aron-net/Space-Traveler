@@ -1,25 +1,27 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Space Traveler
+# React & Redux group project - Space Travelers' Hub 
 
-> The space traveler is a React, Redux application based on the spaceX API.
+> Space travelers' Hub App based on api
 
 ## Built With
 
-- React
-- Redux Toolkit
 - HTML
 - CSS
+- JavaScript
+- React
+- Redux
 
-[Live Demo Link](on progress)
+## Live Demo (if available)
 
+[Live Demo Link](https://livedemo.com)
 
 ## Getting Started
 - Make sure you have node installed on your local machine.
 
 step 1: Clone this repo locally using git in the command line and the following command
 
-git clone https://github.com/aron-helu/Book-Store-React.git
+git clone git@github.com:aron-helu/Space-Traveler.git
 
 Step 2: run npm install to download the necessary modules.
 
@@ -29,23 +31,25 @@ step 3: run npm start to load the project.
 
 Any html and css code editor like Vscode or Vim.
 
-### Run tests
-
-- npm run test
-
 ## Authors
 
+👤 **Jean Bulambo**
+
+- GitHub: [@Jeanbulambo](https://github.com/Jeanbulambo)
+- Twitter: [@Jeanbulambo](https://twitter.com/Jeanbulambo4)
+- LinkedIn: [@Jeanbulambo](https://www.linkedin.com/in/jean-bulambo-20662a14a/)
+
 👤 **Aaron Abraham**
 
 - GitHub: [@Aaron](https://github.com/aron-helu)
 
 - LinkedIn: [@Aaron](https://www.linkedin.com/in/aron-abraham-90a4321b0/)
 
-👤 **Aaron Abraham**
+👤 **Natasha Tatenda**
 
-- GitHub: [@Aaron](https://github.com/aron-helu)
+- GitHub: [@NATASHA-ct](https://github.com/NATASHA-ct)
+- [@NatashaChirombe] LinkedIn: Natasha Chirombe 
 
-- LinkedIn: [@Aaron](https://www.linkedin.com/in/aron-abraham-90a4321b0/)
 
 ## 🤝 Contributing
 
@@ -53,16 +57,15 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-
-
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Miroverse Inc.
-
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
 ## 📝 License
 
