@@ -12,12 +12,13 @@
 
 .log {
   width: 8%;
+  border-radius: 6px;
 }
 
 .nav-bar {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 15px;
 }
 
 .Navlinks {
@@ -37,5 +38,5 @@
 }
 
 .main-title {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }

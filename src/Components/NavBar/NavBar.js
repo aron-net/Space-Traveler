@@ -1,11 +1,11 @@
 import { NavLink } from 'react-router-dom';
-// import ar from '../../Image/3212567.png';
+import ar from '../../Image/logo.png';
 import './NavBar.css';
 
 const NavBar = () => (
   <div className="nav">
     <div className="nav-bar">
-      {/* <img className="log" src={ar} alt="planet" /> */}
+      <img className="log" src={ar} alt="planet" />
       <h1 className="main-title">Space Travelers&sbquo; Hub</h1>
     </div>
     <div className="Navlinks">
