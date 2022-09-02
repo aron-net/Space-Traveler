@@ -4,11 +4,14 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-.App {
-  text-align: center;
+body{
   background-image: url("../src/Image/pexels-photo-355935.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.App {
+  text-align: center;
   color: whitesmoke;
 }
 
