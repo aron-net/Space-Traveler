@@ -1,0 +1,56 @@
+.allMissions {
+  padding: 2rem 0;
+}
+
+.missions-container {
+  display: flex;
+  color: #c9c9cd;
+  flex-direction: column;
+  border: 0.5px solid #c1c3c5ae;
+  margin: 3rem;
+  background-color: #000000b2;
+}
+
+.mission-titles {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr;
+}
+
+.missionInfor p {
+  text-align: left;
+  padding: 0.8rem;
+}
+
+.mission-titles h2 {
+  border: 0.5px solid #c1c3c5ae;
+  border-bottom: none;
+  height: 100%;
+  margin: 0;
+  padding: 15px;
+}
+
+.missionStatus span {
+  background-color: #c1c3c5ae;
+  color: #131414;
+  border-radius: 3px;
+  padding: 3.5px 5px;
+  font-size: 0.9em;
+}
+
+.missionItems {
+  display: flex;
+  flex-direction: column;
+}
+
+.missionItems .card {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr;
+}
+
+.missionItems .card div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid #c1c3c5ae;
+  text-align: center;
+}
