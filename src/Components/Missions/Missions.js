@@ -1,42 +1,32 @@
 import React, { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 import { changeStateMission } from '../../redux/missions/missions';
-import Badge from '../Badge/Badge';
 import Card from '../UI/Card';
 
 const Mission = (props) => {
   const {
-    id, reservation, name, description,
+    mission
   } = props;
+  console.log(props);
   const dispatch = useDispatch();
-  const onButtonPressedMission = (e) => {
-    dispatch(changeStateMission(e.target.id));
-  };
-
   return (
     <Card>
       <div className="missionName">
-        <h2>{name}</h2>
+        <h2>{mission.mission_name}</h2>
       </div>
       <div className="missionInfor">
-        <p>{description}</p>
+        <p>{mission.description}</p>
       </div>
       <div className="missionStatus">
-        <Badge
-          text={`${reservation ? 'Active member' : 'Not a Member'}`}
-          secondClass={`${reservation ? '' : 'hidden'}`}
-        />
+        { mission.reserved && (<span style={{ backgound: 'teal' }}>Active member</span>)}
+        { !mission.reserved && <span>NOT A MEMBER</span>}
       </div>
-
       <div className="missionBtn">
         <button
-          id=""
-          secondClasses={`${reservation ? '' : ''} `}
-          text={reservation ? 'Leave mission' : 'Join Mission'}
-          handleClick={onButtonPressedMission}
+          onClick={() => dispatch(changeStateMission(mission.mission_id))}
           type="button"
         >
-          {reservation ? 'Leave mission' : 'Join Mission'}
+          {mission.reserved ? 'Leave mission' : 'Join Mission'}
         </button>
       </div>
     </Card>
@@ -45,7 +35,7 @@ const Mission = (props) => {
 
 Mission.propTypes = {
   id: PropTypes.string.isRequired,
-  reservation: PropTypes.bool.isRequired,
+  reserved: PropTypes.bool.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
 };
