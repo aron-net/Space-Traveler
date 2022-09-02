@@ -1,0 +1,17 @@
+.allProfiles {
+  background-color: #0000009c;
+  width: 60%;
+  margin: 5em auto;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+section {
+  border-bottom: 2px solid grey;
+}
+
+li {
+  font-size: 20px;
+  color: rgb(78, 204, 202);
+  list-style: none;
+}
