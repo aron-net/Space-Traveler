@@ -1,7 +1,7 @@
 import DragonList from '../Dragon/DragonList';
 
 const DragonPage = () => (
-  <div className="allMissions">
+  <div className="allDragons">
     <DragonList />
   </div>
 );

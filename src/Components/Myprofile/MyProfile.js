@@ -1,6 +1,6 @@
 import DragonProfile from './DragonProfile';
 import MissionProfile from './MissionProfile';
-import RocketProfile from './RocketStatus';
+import RocketProfile from './RocketProfile';
 
 const MyProfile = () => (
   <>

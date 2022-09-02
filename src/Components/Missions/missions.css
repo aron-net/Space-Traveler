@@ -2,6 +2,11 @@
   padding: 2rem 0;
 }
 
+h2 {
+color: white;
+font-size: 1.5rem;
+}
+
 .missions-container {
   display: flex;
   color: #c9c9cd;

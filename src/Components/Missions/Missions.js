@@ -12,7 +12,7 @@ const Mission = (props) => {
   return (
     <Card>
       <div className="missionName">
-        <h2>{mission.mission_name}</h2>
+        <h3>{mission.mission_name}</h3>
       </div>
       <div className="missionInfor">
         <p>{mission.description}</p>
