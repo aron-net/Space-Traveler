@@ -14,7 +14,17 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://aron-helu.github.io/Space-Traveler/)
+
+## Quick view
+
+<img src="./Screenshot from 2022-09-06 08-30-37.jpg" alt="quick-view-img">
+
+<img src="./Screenshot from 2022-09-06 08-40-03.jpg" alt="quick-view-img">
+
+<img src="./Screenshot from 2022-09-06 08-40-13.jpg" alt="quick-view-img">
+
+<img src="./Screenshot from 2022-09-06 08-40-27.jpg" alt="quick-view-img">
 
 ## Getting Started
 - Make sure you have node installed on your local machine.
