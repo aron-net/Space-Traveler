@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Space-Traveler/static/css/main.18f6e830.css",
+    "main.js": "/Space-Traveler/static/js/main.9e5df723.js",
+    "static/media/pexels-photo-355935.jpeg": "/Space-Traveler/static/media/pexels-photo-355935.3492f4f7f9f9e411fcf4.jpeg",
+    "static/media/logo.png": "/Space-Traveler/static/media/logo.ca0387063b303b67920f.png",
+    "index.html": "/Space-Traveler/index.html",
+    "main.18f6e830.css.map": "/Space-Traveler/static/css/main.18f6e830.css.map",
+    "main.9e5df723.js.map": "/Space-Traveler/static/js/main.9e5df723.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18f6e830.css",
+    "static/js/main.9e5df723.js"
+  ]
+}
