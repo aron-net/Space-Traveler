@@ -2,7 +2,7 @@
 
 # React & Redux group project - Space Travelers' Hub 
 
-> Space travelers' Hub App based on api
+> Traveler's website was built with actual live data from the SpaceX API. The application provides commercial and scientific space travel services that allow users to book rockets and join selected space missions. Space Traveler's website was built with live data from the SpaceX API.
 
 ## Built With
 
